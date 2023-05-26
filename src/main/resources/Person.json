@@ -1,0 +1,88 @@
+{
+    "firstName": "Json",
+    "lastName": "Smith",
+    "age": 30,
+    "address": {
+        "streetAddress": "666 1nd Street",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": 10021
+    },
+    "phoneNumbers": [
+        {
+            "type": "home",
+            "number": "542 666-1234"
+        },
+        {
+            "type": "fax",
+            "number": "653 666-4567" 
+        }
+    ],
+    "friends": [
+        {
+            "firstName": "Tom",
+            "lastName": "Snow",
+            "age": 20,
+            "address": {
+                "streetAddress": "777 2nd Street",
+                "city": "New York",
+                "state": "NY",
+                "postalCode": 10021
+            },
+            "phoneNumbers": [
+                {
+                    "type": "home",
+                    "number": "141 222-1234"
+                },
+				{
+                    "type": "fax",
+                    "number": "141 222-1234"
+                }
+            ],
+            "friends": [
+                {
+                    "firstName": "Aleksei",
+                    "lastName": "Казанцев",
+                    "age": 999,
+                    "address": {
+                        "streetAddress": "900 9nd Street",
+                        "city": "New York",
+                        "state": "NY",
+                        "postalCode": 10025
+                    },
+                    "phoneNumbers": [
+                        {
+                            "type": "home",
+                            "number": "000 000-0000"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "firstName": "Flash",
+            "lastName": "Tompson",
+            "age": 23,
+            "address": {
+                "streetAddress": "808 1nd Street",
+                "city": "New York",
+                "state": "NY",
+                "postalCode": 10022
+            },
+            "phoneNumbers": [
+                {
+                    "type": "home",
+                    "number": "999 111-1234"
+                },
+				{
+                    "type": "fax",
+                    "number": "999 111-1234"
+                },
+				{
+                    "type": "office",
+                    "number": "999 111-5678"
+                }
+            ]
+        }
+    ]
+}
